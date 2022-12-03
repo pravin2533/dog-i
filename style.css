@@ -1,0 +1,121 @@
+body{
+    font-family: "montserrat";
+}
+
+#title{
+    background-color: rgba(206, 49, 49, 0.836);
+    text-align: center;
+}
+.h1{
+    font-size:3.5rem ;
+    font-family:"montserrat-thick" ;
+    color:white;
+    
+}
+nav{
+    background-color: rgba(218, 90, 90, 0.836);
+}
+.section1{
+    width:100%;
+    height:50%;
+    background-color: rgba(206, 49, 49, 0.836);
+    padding-bottom:3.5rem;
+    
+}
+.container-fluid{
+    background-color: rgba(206, 49, 49, 0.836);
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+}
+.nav-link{
+    font-size:1.25rem;
+}
+.iphone{
+    padding-bottom: 50px;
+    width:40%;
+    transform: rotate(25deg);
+    position:absolute;
+   
+}
+.container{
+    padding-bottom:120px;
+    text-align: left;
+    
+}
+.fat{
+    padding:7% 2%;
+}
+h3{
+    font-family: "montserrat-bold";
+}
+.icon:hover{
+    color:rgba(195, 228, 10, 0.945);
+}
+i{
+    padding-bottom:10px;
+    padding-left:20px;
+    color:#ef8172;
+} 
+
+/* testimonials */ 
+#testimonials{
+    
+    text-align: center;
+    
+    background-color: #ef8172;
+    font-family: "montserrat-bold";
+    color:#fff;
+}
+.testimonial-image{
+    width:15%;
+    padding-bottom:2.5rem;
+    padding-top:1.5rem;
+    border-radius: 100%;
+}
+/* press */
+
+#press{
+
+    padding:5px 10%;
+    background-color:#ef8172;
+    
+}
+
+/* pricing */
+.carding{
+    padding: 10%;
+    text-align: center;
+}
+#features{
+    padding:3% ;
+    background-color:#fff;
+    position:relative;
+    z-index:1;
+}
+
+/* media query */
+@media screen and (max-width:1028px){
+.iphone{
+    position:static;
+    padding-top: 2rem;
+    transform:rotate(0);
+}
+}
+#cta{
+    background-color: #ff4c68;
+   text-align: center;
+}
+.header-h3{
+    font-size:3.5rem;
+    font-family: "montserrat-black";
+    color:#fff;
+    background-color: #ff4c68;
+}
+.btn{
+    text-align: center;
+    margin:25px;
+}
+
+/* combine selector works only in same html element */
